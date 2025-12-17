@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (btnchangecat){
         btnchangecat.addEventListener("click", () => {
             baground=document.body;
-            baground.style.backgroundImage = "url('/Image/fontcat.png')";
+            baground.style.backgroundImage = "url('./Image/fontcat.png')";
             baground.classList.add("fontpets");
             imagen1.src = imagecat[0];
             imagen2.src = imagecat[1];
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (btnreturndog){
         btnreturndog.addEventListener("click", () => {
             baground=document.body;
-            baground.style.backgroundImage="url('/Image/fontdog.png')";
+            baground.style.backgroundImage="url('./Image/fontdog.png')";
             baground.classList.add("fontpets");
             imagen1.src = imagedog[0];
             imagen2.src = imagedog[1];
