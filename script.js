@@ -21,14 +21,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const p3= document.getElementById("p3");
   
     // const imagecat = [
-    //     "/Image/cat1.png",
-    //     "/Image/cat2.png",
-    //     "/Image/cat3.png"
+    //     "./Image/cat1.png",
+    //     "./Image/cat2.png",
+    //     "./Image/cat3.png"
     // ];
     // const imagedog= [
-    //     "/Image/dogboxer.png",
-    //     "/Image/dogdoberman.png",
-    //     "/Image/dogpastor.png"
+    //     "./Image/dogboxer.png",
+    //     "./Image/dogdoberman.png",
+    //     "./Image/dogpastor.png"
 
     // ];
     const imagecat = [
